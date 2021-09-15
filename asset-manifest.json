@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-candle-site/static/css/main.c69968fc.chunk.css",
+    "main.js": "/react-candle-site/static/js/main.ed25f7ee.chunk.js",
+    "main.js.map": "/react-candle-site/static/js/main.ed25f7ee.chunk.js.map",
+    "runtime-main.js": "/react-candle-site/static/js/runtime-main.3e0796f8.js",
+    "runtime-main.js.map": "/react-candle-site/static/js/runtime-main.3e0796f8.js.map",
+    "static/js/2.037ee851.chunk.js": "/react-candle-site/static/js/2.037ee851.chunk.js",
+    "static/js/2.037ee851.chunk.js.map": "/react-candle-site/static/js/2.037ee851.chunk.js.map",
+    "static/js/3.f40c4b8f.chunk.js": "/react-candle-site/static/js/3.f40c4b8f.chunk.js",
+    "static/js/3.f40c4b8f.chunk.js.map": "/react-candle-site/static/js/3.f40c4b8f.chunk.js.map",
+    "index.html": "/react-candle-site/index.html",
+    "static/css/main.c69968fc.chunk.css.map": "/react-candle-site/static/css/main.c69968fc.chunk.css.map",
+    "static/js/2.037ee851.chunk.js.LICENSE.txt": "/react-candle-site/static/js/2.037ee851.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-candle-site/static/media/header-image.86aa88f2.jpg",
+    "static/media/fifth.dd39423d.jpg": "/react-candle-site/static/media/fifth.dd39423d.jpg",
+    "static/media/second.ba5fa879.jpg": "/react-candle-site/static/media/second.ba5fa879.jpg",
+    "static/media/sixth.df12ed29.jpg": "/react-candle-site/static/media/sixth.df12ed29.jpg",
+    "static/media/third.7457c05d.jpg": "/react-candle-site/static/media/third.7457c05d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e0796f8.js",
+    "static/js/2.037ee851.chunk.js",
+    "static/css/main.c69968fc.chunk.css",
+    "static/js/main.ed25f7ee.chunk.js"
+  ]
+}
