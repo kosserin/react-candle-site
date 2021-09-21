@@ -28,7 +28,7 @@ function Carousel({slides}) {
             <h1>What others said about us</h1>
             <div className="slides">
             <div className="slide">
-                <img src={slides[index].image} alt="" />
+                <img src={slides[index].image} alt={slides[index].alt} />
                 <h2>{slides[index].name}</h2>
                 <p>{slides[index].text}</p>
             </div>

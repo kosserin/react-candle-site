@@ -9,7 +9,7 @@ function Shop({cards}) {
             <h1>Here are some offers for you</h1>
             <div id="cards">{cards.map( card => (
                 <div key={uuidv4()} className="card">
-                    <img src={card.image} />
+                    <img src={card.image} alt={card.alt} />
                     <div className="text-container">
                     <h2>{card.heading}</h2>
                     <p>{card.text}</p>

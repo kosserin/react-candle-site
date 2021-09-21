@@ -13,16 +13,16 @@ function Navbar({handleOnScroll,offset, toggle, setToggle}) {
 
     return(
         <nav className={offset > 0 ? 'scrolled-nav' : ''}>
-            < Link id='xd' to='/react-candle-site/'>
+            < Link id='link' to='/react-candle-site/'>
             <h1>Koss</h1></Link>
             <ul className={toggle ? "nav-links show-nav" : "nav-links"}>
-                < Link id='xd' to='/react-candle-site/products'>
+                < Link id='link' to='/react-candle-site/products'>
                 <li><a href="#">Products</a></li>
                 </Link>
-                < Link id='xd' to='/react-candle-site/about-page' >
+                < Link id='link' to='/react-candle-site/about-page' >
                 <li><a href="#">About</a></li>
                 </Link>
-                < Link id='xd' to='/react-candle-site/contact'>
+                < Link id='link' to='/react-candle-site/contact'>
                 <li><a href="#">Contact</a></li>
                 </Link>
             </ul>

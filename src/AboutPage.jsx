@@ -27,10 +27,8 @@ useEffect(() =>{
 
     function handleModalClick(e) {
         if(e.target.classList.contains('module')){
-            console.log('xd');
             setModalShow(false)
         } else{
-            console.log('not xd');
             return;
         }
     }

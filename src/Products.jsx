@@ -16,6 +16,7 @@ function Products() {
     const [products, setProducts] = useState([
         { id: uuidv4(),
           img: firstImage,
+          alt: 'firstImage',
           title: 'Candle of fire',
           price: '10,00',
           a: '#',
@@ -23,6 +24,7 @@ function Products() {
         }, 
         { id: uuidv4(),
           img: secondImage,
+          alt: 'secondImage',
           title: 'Candle of fire',
           price: '12,00',
           a: '#',
@@ -30,6 +32,7 @@ function Products() {
         }, 
         { id: uuidv4(),
           img: thirdImage,
+          alt: 'thirdImage',
           title: 'Candle of fire',
           price: '6,00',
           a: '#',
@@ -37,6 +40,7 @@ function Products() {
         }, 
         { id: uuidv4(),
           img: fourthImage,
+          alt: 'fourthImage',
           title: 'Candle of fire',
           price: '7,50',
           a: '#',
@@ -44,6 +48,7 @@ function Products() {
         }, 
         { id: uuidv4(),
           img: fifthImage,
+          alt: 'fifthImage',
           title: 'Candle of fire',
           price: '18,00',
           a: '#',
@@ -51,6 +56,7 @@ function Products() {
         }, 
         { id: uuidv4(),
           img: sixthImage,
+          alt: 'firstImage',
           title: 'Candle of fire',
           price: '21,00',
           a: '#',
@@ -101,7 +107,7 @@ function Products() {
             <div className="products-container">
                 {products.map(product =>(
                     <div className="product" id={product.id} key={uuidv4()}>
-                        <img src={product.img} alt="" />
+                        <img src={product.img} alt={product.alt} />
                         <h2>{product.title}</h2>
                         <p>{product.price} €</p>
                         <button onClick={changeButton} id={uuidv4()} href={product.a}>{ product.clicked ? `ADDED TO CART` : 'Add to cart' }</button>
