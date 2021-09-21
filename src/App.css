@@ -37,14 +37,16 @@ nav ul {
   list-style: none;
 }
 
-nav ul li {
+/*nav ul li {
   margin: 0 20px;
-}
+}*/
 
-nav ul li a {
+nav ul a {
   text-decoration: none;
   color: wheat;
   transition: all 250ms ease;
+  margin: 0 20px;
+  display: inline-block;
 }
 
 nav ul li a:hover {
@@ -335,12 +337,14 @@ footer ul {
   text-align: center;
 }
 
-footer ul li a {
+footer ul a {
   text-decoration: none;
   color: wheat;
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 250ms ease;
+  display: inline-block;
+  margin: 2px 0;
 }
 
 footer ul li a:hover {
@@ -360,16 +364,18 @@ footer .right-side-container form {
 
 footer .right-side-container form input {
   background: white;
+  min-width: 250px;
   border: none;
   outline: none;
-  padding: 0.5rem;
+  padding: 0.8rem 0.5rem;
 }
 
 footer .right-side-container form button {
   border: none;
   outline: none;
-  padding: 0.5rem 1rem;
-  background: wheat;
+  padding: 0.8rem 0.5rem;
+  min-width: 200px;
+  background: rgb(255, 166, 0);
   font-weight: 500;
   cursor: pointer;
 }
@@ -409,7 +415,7 @@ footer .right-side-container .change-on-focus {
 
 /* < Link> */
 
-#link {
+.link {
   text-decoration: none;
 }
 
@@ -1068,12 +1074,14 @@ footer .right-side-container .change-on-focus {
     transition: all 500ms ease;
   }
 
-  nav ul li {
+  /*nav ul li {
     margin: 30px 0;
-  }
+  }*/
 
-  nav ul li a {
+  nav ul a {
     font-size: 2rem;
+    margin: 30px 0;
+    display: inline-block;
   }
 
   nav .burger {
@@ -1164,12 +1172,6 @@ footer .right-side-container .change-on-focus {
     padding-right: 10vw;
   }
 
-  #about-page .text-container {
-    max-width: 80%;
-  }
-}
-
-@media only screen and (max-width: 385px) {
   footer form {
     display: flex;
     flex-direction: column;
@@ -1177,5 +1179,17 @@ footer .right-side-container .change-on-focus {
 
   footer .right-side-container p {
     top: 25%;
+  }
+
+  footer form input {
+    width: 100%;
+  }
+
+  footer form button {
+    width: 100%;
+  }
+
+  #about-page .text-container {
+    max-width: 80%;
   }
 }
