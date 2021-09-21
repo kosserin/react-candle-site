@@ -1,8 +1,6 @@
 import React, {useState,useEffect} from "react";
 
 function Carousel({slides}) {
-
-    const [toggle, setToggle] = useState(false);
     let [index, setIndex] = useState(0);
 
     useEffect(() =>{

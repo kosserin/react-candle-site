@@ -531,6 +531,297 @@ footer .right-side-container .change-on-focus {
   max-height: 80vh;
 }
 
+/* CONTACT SECTION FROM HERE */
+
+#contact {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background: black;
+  color: wheat;
+  padding: 0 10vw;
+  border-bottom: 2px solid wheat;
+}
+
+#contact > h1 {
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 4.5rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid wheat;
+  margin-bottom: 20px;
+}
+
+#contact > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#contact > p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.contact-container {
+  position: relative;
+  top: 5vh;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#contact form input,
+#contact form textarea {
+  margin: 15px 0;
+  padding: 1rem;
+}
+
+#contact form input {
+  height: 50px;
+}
+
+#contact form #name {
+  margin-top: 0;
+}
+
+#contact form button {
+  width: 200px;
+  background: wheat;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+#contact form button:hover {
+  background: white;
+  transition: all 250ms ease;
+}
+
+.contact-right-side {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 50%;
+}
+
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid wheat;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.items-container i {
+  margin-right: 40%;
+  font-size: 2.5rem;
+}
+
+.items-container p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.items-container h2 {
+  text-align: center;
+}
+
+.contact-social-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons a {
+  margin: 0 10px;
+  font-size: 1.8rem;
+  color: wheat;
+  text-decoration: none;
+  transition: all 250ms ease;
+}
+
+.contact-icons a:hover {
+  color: white;
+  transition: all 250ms ease;
+}
+
+.contact-social-container > a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: wheat;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 250ms ease;
+}
+
+.contact-social-container > a:hover {
+  color: white;
+  transition: all 250ms ease;
+}
+
+/* PRODUCTS PAGE */
+
+.fa-shopping-bag {
+  cursor: pointer;
+  font-size: 2.5rem;
+  position: fixed;
+  top: 5vh;
+  right: 5vw;
+  transform: translate(50%, -50%);
+  z-index: 10;
+}
+
+#products {
+  background: #000000;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  border-bottom: 2px solid wheat;
+}
+
+#products h1 {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3rem;
+}
+
+.products-container {
+  width: 70vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 150px;
+  padding: 100px 0;
+}
+
+.products-container .product {
+  width: 100%;
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+}
+
+.product h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.product button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  text-decoration: none;
+  color: wheat;
+  background: transparent;
+  border: 2px solid wheat;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background: wheat;
+  color: #000000;
+}
+
+.product button i {
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.shopping-bag-container {
+  position: absolute;
+  background: wheat;
+  font-size: 1rem;
+  padding: 2rem;
+  color: #000000;
+  right: 0;
+  top: 110%;
+  width: 300px;
+  min-height: 300px;
+  font-weight: 400;
+  cursor: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-bag-container span {
+  font-weight: 600;
+}
+
+.shopping-bag-container p:last-of-type {
+  margin: 10px 0;
+}
+
+.shopping-bag-container a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.1rem 2rem;
+  background: black;
+  width: fit-content;
+  color: wheat;
+}
+
+.shopping-bag-container > span {
+  text-decoration: underline;
+  color: red;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.shopping-bag-container a:hover {
+  background: rgba(0, 0, 0, 0.82);
+}
+
 /* RESPONSIVE FROM HERE */
 
 @media only screen and (max-width: 1324px) {
@@ -542,6 +833,30 @@ footer .right-side-container .change-on-focus {
 }
 
 @media only screen and (max-width: 1024px) {
+  #products .products-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-container {
+    min-height: 1000px;
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .contact-container {
+    position: relative;
+    flex-direction: column;
+  }
+
+  #contact .contact-container form {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .contact-container .contact-right-side {
+    padding-bottom: 50px !important;
+  }
+
   #about-page {
     flex-direction: column;
     padding-top: 20vh;
@@ -617,6 +932,36 @@ footer .right-side-container .change-on-focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .fa-shopping-bag {
+    top: 3vh;
+    font-size: 2rem;
+  }
+
+  #products h1 {
+    font-size: 2.5rem;
+  }
+
+  #products .products-container {
+    grid-template-columns: 1fr;
+  }
+
+  .items-container i {
+    margin-right: 10%;
+    font-size: 2rem;
+  }
+
+  .contact-social-container a {
+    text-align: center;
+  }
+
+  .items-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .items-container p {
+    font-size: 1rem;
+  }
+
   #about-page .image-container {
     width: 80vw;
   }
@@ -674,6 +1019,40 @@ footer .right-side-container .change-on-focus {
 }
 
 @media only screen and (max-width: 500px) {
+  .fa-shopping-bag {
+    top: 4.5vh;
+    right: 10vw;
+    z-index: 100;
+  }
+
+  #contact > h1 {
+    padding-top: 10vh;
+  }
+
+  .contact-container {
+    top: 0;
+  }
+
+  .contact-container {
+    min-height: 1100px;
+  }
+
+  .contact-right-side {
+    width: 100%;
+  }
+
+  .contact-text-container {
+    width: 100%;
+  }
+
+  .contact-right-side .items-container h2 {
+    font-size: 1rem;
+  }
+
+  .contact-right-side .items-container i {
+    margin-right: 40%;
+  }
+
   nav ul {
     position: absolute;
     width: 100vw;
@@ -787,5 +1166,16 @@ footer .right-side-container .change-on-focus {
 
   #about-page .text-container {
     max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  footer form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .right-side-container p {
+    top: 25%;
   }
 }

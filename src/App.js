@@ -13,12 +13,13 @@ import thirdImage from './third.jpg';
 import fourthImage from './fourth.jpg';
 import fifthImage from './fifth.jpg';
 import sixthImage from './sixth.jpg';
-import './App.css';
 import AboutPage from './AboutPage';
 import Contact from './Contact';
+import './App.css';
 
 function App() {
 
+  const [toggle, setToggle] = useState(false);
   const [offset, setOffset] = useState(0);
   const [focus,setFocus] = useState(false);
  
@@ -31,12 +32,12 @@ function App() {
   return (
     < Router>
     <div className="App">
-      < Navbar handleOnScroll={handleOnScroll} offset={offset} />
+      < Navbar handleOnScroll={handleOnScroll} offset={offset} toggle={toggle} setToggle={setToggle} />
       < Switch>
-        < Route path='/' exact component={Home} />
-        < Route path='/products' exact component={Products} />
-        < Route path='/aboutPage' exact component={AboutPage} />
-        < Route path='/contact' exact component={Contact} />
+        < Route path='/react-candle-site/' exact component={Home} />
+        < Route path='/react-candle-site/products' exact component={Products} />
+        < Route path='/react-candle-site/about-page' exact component={AboutPage} />
+        < Route path='/react-candle-site/contact' exact component={Contact} />
       </Switch>
         < Footer focus={focus} setFocus={setFocus} />
     </div>

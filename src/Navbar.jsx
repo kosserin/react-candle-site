@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
 
-function Navbar({handleOnScroll,offset}) {
-
-    const [toggle, setToggle] = useState(false);
+function Navbar({handleOnScroll,offset, toggle, setToggle}) {
 
     useEffect(() => {
         handleOnScroll()
@@ -15,16 +13,16 @@ function Navbar({handleOnScroll,offset}) {
 
     return(
         <nav className={offset > 0 ? 'scrolled-nav' : ''}>
-            < Link id='xd' to='/'>
+            < Link id='xd' to='/react-candle-site/'>
             <h1>Koss</h1></Link>
             <ul className={toggle ? "nav-links show-nav" : "nav-links"}>
-                < Link id='xd' to='/products'>
+                < Link id='xd' to='/react-candle-site/products'>
                 <li><a href="#">Products</a></li>
                 </Link>
-                < Link id='xd' to='/aboutPage' >
+                < Link id='xd' to='/react-candle-site/about-page' >
                 <li><a href="#">About</a></li>
                 </Link>
-                < Link id='xd' to='/contact'>
+                < Link id='xd' to='/react-candle-site/contact'>
                 <li><a href="#">Contact</a></li>
                 </Link>
             </ul>

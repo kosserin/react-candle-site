@@ -8,7 +8,6 @@ function AboutPage() {
 
     const [modalShow, setModalShow] = useState(false);
     const [imageSource, setImageSource] = useState('');
-    const [moduleClass, setModuleClass] = useState('module');
 
     const handleImageClick = (e) => {
         setModalShow(true);
