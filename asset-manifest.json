@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-candle-site/static/css/main.f6d8979e.chunk.css",
-    "main.js": "/react-candle-site/static/js/main.6397884b.chunk.js",
-    "main.js.map": "/react-candle-site/static/js/main.6397884b.chunk.js.map",
+    "main.css": "/react-candle-site/static/css/main.56297dea.chunk.css",
+    "main.js": "/react-candle-site/static/js/main.7affe8c9.chunk.js",
+    "main.js.map": "/react-candle-site/static/js/main.7affe8c9.chunk.js.map",
     "runtime-main.js": "/react-candle-site/static/js/runtime-main.44e02aa7.js",
     "runtime-main.js.map": "/react-candle-site/static/js/runtime-main.44e02aa7.js.map",
     "static/js/2.20377868.chunk.js": "/react-candle-site/static/js/2.20377868.chunk.js",
@@ -10,18 +10,18 @@
     "static/js/3.4a433210.chunk.js": "/react-candle-site/static/js/3.4a433210.chunk.js",
     "static/js/3.4a433210.chunk.js.map": "/react-candle-site/static/js/3.4a433210.chunk.js.map",
     "index.html": "/react-candle-site/index.html",
-    "static/css/main.f6d8979e.chunk.css.map": "/react-candle-site/static/css/main.f6d8979e.chunk.css.map",
+    "static/css/main.56297dea.chunk.css.map": "/react-candle-site/static/css/main.56297dea.chunk.css.map",
     "static/js/2.20377868.chunk.js.LICENSE.txt": "/react-candle-site/static/js/2.20377868.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-candle-site/static/media/header-image.86aa88f2.jpg",
-    "static/media/fifth.dd39423d.jpg": "/react-candle-site/static/media/fifth.dd39423d.jpg",
-    "static/media/second.ba5fa879.jpg": "/react-candle-site/static/media/second.ba5fa879.jpg",
-    "static/media/sixth.df12ed29.jpg": "/react-candle-site/static/media/sixth.df12ed29.jpg",
-    "static/media/third.7457c05d.jpg": "/react-candle-site/static/media/third.7457c05d.jpg"
+    "static/media/App.css": "/react-candle-site/static/media/header-image.be1dc80e.jpg",
+    "static/media/fifth.581d3d87.jpg": "/react-candle-site/static/media/fifth.581d3d87.jpg",
+    "static/media/second.221e7377.jpg": "/react-candle-site/static/media/second.221e7377.jpg",
+    "static/media/sixth.290b628b.jpg": "/react-candle-site/static/media/sixth.290b628b.jpg",
+    "static/media/third.f194c053.jpg": "/react-candle-site/static/media/third.f194c053.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44e02aa7.js",
     "static/js/2.20377868.chunk.js",
-    "static/css/main.f6d8979e.chunk.css",
-    "static/js/main.6397884b.chunk.js"
+    "static/css/main.56297dea.chunk.css",
+    "static/js/main.7affe8c9.chunk.js"
   ]
 }
